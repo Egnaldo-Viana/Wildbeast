@@ -36,6 +36,27 @@ img {
     "footer footer footer";
 }
 
+@media (max-width: 1200px) {
+  .estrutura {
+    grid-template-areas:
+      "header header header"
+      "sidenav content content"
+      "sindenav anuncios anuncios"
+      "footer footer footer";
+  }
+}
+@media (max-width: 760px) {
+  .estrutura {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "sidenav"
+      "content"
+      "anuncios"
+      "footer";
+  }
+}
+
 /* header */
 .header {
   grid-area: header;
@@ -213,9 +234,9 @@ P {
 }
 
 .atributos li {
+  font-size: 1.125em;
   color: #fff;
   font-family: Courier, monospace;
-  font-size: 1.125em;
   padding: 15px;
 }
 
