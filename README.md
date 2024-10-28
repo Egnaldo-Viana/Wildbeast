@@ -1,4 +1,4 @@
-# Wildbeast - Página sobre o Lobo Cinza
+# Wildbeast - Página sobre Animais e sua espécie
 
 Este projeto apresenta uma página institucional fictícia chamada Wildbeast, que fornece informações sobre animais e sua espécie. A página é construída com HTML e CSS, utilizando Grid e Flexbox para organizar o layout de maneira responsiva.
 
